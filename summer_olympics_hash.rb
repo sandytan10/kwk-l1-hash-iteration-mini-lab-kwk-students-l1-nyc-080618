@@ -11,7 +11,7 @@ def add_a_key_value_pair
   Athens: "2004",
   Beijing: "2008",
   London: "2012"} 
-  olympics_hash[Atlanta:] = 1996
+  olympics_hash[:Atlanta] = 1996
   return olympics_hash
 end
 
